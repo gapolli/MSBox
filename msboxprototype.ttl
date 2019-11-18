@@ -1,0 +1,597 @@
+@prefix dc:         <http://purl.org/dc/elements/1.1/> .
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:        <http://www.w3.org/2002/07/owl#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix dbpedia:    <http://dbpedia.org/resource/> .
+@prefix dbo:        <http://dbpedia.org/ontology/> .
+@prefix mo:         <http://purl.org/ontology/mo/> .
+@prefix msbox:      <http://www.msbox.com/#> .
+
+msbox:m001
+    a dbo:Movie ;
+    msbox:release 1967 ;
+    rdf:label "A Countess From Hong Kong" .
+
+msbox:m002
+    a dbo:Movie ;
+    msbox:release 1957 ;
+    rdf:label "A King in New York" .
+
+msbox:m003
+    a dbo:Movie ;
+    msbox:release 1952 ;
+    rdf:label "Limelight" .
+
+msbox:m004
+    a dbo:Movie ;
+    msbox:release 1947 ;
+    rdf:label "Monsieur Verdoux" .
+
+msbox:m005
+    a dbo:Movie ;
+    msbox:release 1940 ;
+    rdf:label "The Great Dictator" .
+
+msbox:m006
+    a dbo:Movie ;
+    msbox:release 1936 ;
+    rdf:label "Modern Times" .
+
+msbox:m007
+    a dbo:Movie ;
+    msbox:release 1931 ;
+    rdf:label "City Lights" .
+
+msbox:m008
+    a dbo:Movie ;
+    msbox:release 1928 ;
+    rdf:label "The Circus" .
+
+msbox:m009
+    a dbo:Movie ;
+    msbox:release 1925 ;
+    rdf:label "The Gold Rush" .
+
+msbox:m010
+    a dbo:Movie ;
+    msbox:release 1923 ;
+    rdf:label "A Woman of Paris" .
+
+msbox:m011
+    a dbo:Movie ;
+    msbox:release 1921 ;
+    rdf:label "The Kid" .
+
+msbox:m012
+    a dbo:Movie ;
+    msbox:release 1921 ;
+    rdf:label "The Idle Class" .
+
+msbox:m013
+    a dbo:Movie ;
+    msbox:release 1919 ;
+    rdf:label "Sunnyside" .
+
+msbox:m014
+    a dbo:Movie ;
+    msbox:release 1919 ;
+    rdf:label "A Day's Pleasure" .
+
+msbox:m015
+    a dbo:Movie ;
+    msbox:release 1917 ;
+    rdf:label "The Immigrant" .
+
+msbox:m016
+    a dbo:Movie ;
+    msbox:release 1916 ;
+    rdf:label "The Rink" .
+
+msbox:p001
+    a foaf:Person ;
+    owl:sameAs dbpedia:Charlie_Chaplin ;
+    foaf:name "Charles Chaplin" ;
+    foaf:firstname "Charles" ;
+    foaf:lastname "Chaplin" ;
+    dbo:director msbox:m001, msbox:m002, msbox:m003, msbox:m004, msbox:m005, msbox:m006, msbox:m007, msbox:m008, msbox:m009, msbox:m010, msbox:m011, msbox:m012, msbox:m013, msbox:m014, msbox:m015, msbox:m016 ;
+    dbo:actor msbox:m001, msbox:m002, msbox:m003, msbox:m004, msbox:m005, msbox:m006, msbox:m007, msbox:m008, msbox:m009, msbox:m010, msbox:m011, msbox:m012, msbox:m013, msbox:m014, msbox:m015, msbox:m016 ;
+    dbo:composer msbox:m001, msbox:m002, msbox:m003, msbox:m004, msbox:m005, msbox:m006, msbox:m007, msbox:m008, msbox:m009, msbox:m010, msbox:m011, msbox:m012, msbox:m013, msbox:m014, msbox:m015, msbox:m016 .
+
+msbox:p002
+    a foaf:Person ;
+    owl:sameAs dbpedia:Marlon_Brando ;
+    foaf:name "Marlon Brando" ;
+    foaf:firstname "Marlon" ;
+    foaf:lastname "Brando" ;
+    dbo:actor msbox:m001 .
+
+msbox:p003
+    a foaf:Person ;
+    owl:sameAs dbpedia:Sophia_Loren ;
+    foaf:name "Sophia Loren" ;
+    foaf:firstname "Sophia" ;
+    foaf:lastname "Loren" ;
+    dbo:actor msbox:m001 .
+
+msbox:p004
+    a foaf:Person ;
+    owl:sameAs dbpedia:Sydney_Chaplin ;
+    foaf:name "Sydney Chaplin" ;
+    foaf:firstname "Sydney" ;
+    foaf:lastname "Chaplin" ;
+    dbo:actor msbox:m001, msbox:m003 .
+
+msbox:p005
+    a foaf:Person ;
+    owl:sameAs dbpedia:Tippi_Hedren ;
+    foaf:name "Tippi Hedren" ;
+    foaf:firstname "Tippi" ;
+    foaf:lastname "Hedren" ;
+    dbo:actor msbox:m001 .
+
+msbox:p006
+    a foaf:Person ;
+    owl:sameAs dbpedia:Michael_Medwin ;
+    foaf:name "Michael Medwin" ;
+    foaf:firstname "Michael" ;
+    foaf:lastname "Medwin" ;
+    dbo:actor msbox:m001 .
+
+#não há informação de Margareth na dbpedia
+msbox:p007
+    a foaf:Person ;
+    foaf:name "Margareth Rutherford" ;
+    foaf:firstname "Margareth" ;
+    foaf:lastname "Rutherford" ;
+    dbo:actor msbox:m001 .
+
+msbox:p008
+    a foaf:Person ;
+    owl:sameAs dbpedia:Geraldine_Chaplin ;
+    foaf:name "Geraldine Chaplin" ;
+    foaf:firstname "Geraldine" ;
+    foaf:lastname "Chaplin" ;
+    dbo:actor msbox:m001, msbox:m003 .
+
+msbox:p009
+    a foaf:Person ;
+    owl:sameAs dbpedia:Antony_Chinn ;
+    foaf:name "Antony Chinn" ;
+    foaf:firstname "Antony" ;
+    foaf:lastname "Chinn" ;
+    dbo:actor msbox:m001 .
+
+msbox:p010
+    a foaf:Person ;
+    owl:sameAs dbpedia:Maxine_Audley ;
+    foaf:name "Maxine Audley" ;
+    foaf:firstname "Maxine" ;
+    foaf:lastname "Audley" ;
+    dbo:actor msbox:m002 .
+
+msbox:p011
+    a foaf:Person ;
+    owl:sameAs dbpedia:Dawn_Addams ;
+    foaf:name "Dawn Addams" ;
+    foaf:firstname "Dawn" ;
+    foaf:lastname "Addams" ;
+    dbo:actor msbox:m002 .
+
+msbox:p012
+    a foaf:Person ;
+    owl:sameAs dbpedia:Sid_James ;
+    foaf:name "Sid James" ;
+    foaf:firstname "Sid" ;
+    foaf:lastname "James" ;
+    dbo:actor msbox:m002 .
+
+msbox:p013
+    a foaf:Person ;
+    owl:sameAs dbpedia:Michael_Chaplin_\(actor\) ;
+    foaf:name "Michael Chaplin" ;
+    foaf:firstname "Michael" ;
+    foaf:lastname "Chaplin" ;
+    dbo:actor msbox:m002, msbox:m003 .
+
+msbox:p014
+    a foaf:Person ;
+    owl:sameAs dbpedia:Phil_Brown_\(actor\) ;
+    foaf:name "Phil Brown" ;
+    foaf:firstname "Phil" ;
+    foaf:lastname "Bown" ;
+    dbo:actor msbox:m002 .
+
+#não há informação de Harry na dbpedia
+msbox:p015
+    a foaf:Person ;
+    foaf:name "Harry Green" ;
+    foaf:firstname "Harry" ;
+    foaf:lastname "Green" ;
+    dbo:actor msbox:m002 .
+
+msbox:p016
+    a foaf:Person ;
+    owl:sameAs dbpedia:Robert_Arden ;
+    foaf:name "Robert Arden" ;
+    foaf:firstname "Robert" ;
+    foaf:lastname "Arden" ;
+    dbo:actor msbox:m002 .
+
+msbox:p017
+    a foaf:Person ;
+    owl:sameAs dbpedia:Claire_Bloom ;
+    foaf:name "Claire Bloom" ;
+    foaf:firstname "Claire" ;
+    foaf:lastname "Bloom" ;
+    dbo:actor msbox:m003 .
+
+msbox:p018
+    a foaf:Person ;
+    owl:sameAs dbpedia:Buster_Keaton ;
+    foaf:name "Buster Keaton" ;
+    foaf:firstname "Buster" ;
+    foaf:lastname "Keaton" ;
+    dbo:actor msbox:m003 .
+
+msbox:p019
+    a foaf:Person ;
+    owl:sameAs dbpedia:Nigel_Bruce ;
+    foaf:name "Nigel Bruce" ;
+    foaf:firstname "Nigel" ;
+    foaf:lastname "Bruce" ;
+    dbo:actor msbox:m003 .
+
+msbox:p020
+    a foaf:Person ;
+    owl:sameAs dbpedia:Norman_Lloyd ;
+    foaf:name "Norman Lloyd" ;
+    foaf:firstname "Norman" ;
+    foaf:lastname "Lloyd" ;
+    dbo:actor msbox:m003 .
+
+#não há informação de Mady na dbpedia
+msbox:p021
+    a foaf:Person ;
+    foaf:name "Mady Correll" ;
+    foaf:firstname "Mady" ;
+    foaf:lastname "Correll" ;
+    dbo:actor msbox:m004 .
+
+msbox:p022
+    a foaf:Person ;
+    owl:sameAs dbpedia:Robert_Lewis_\(director\) ;
+    foaf:name "Robert Lewis" ;
+    foaf:firstname "Robert" ;
+    foaf:lastname "Lewis" ;
+    dbo:actor msbox:m004 .
+
+msbox:p023
+    a foaf:Person ;
+    owl:sameAs dbpedia:Martha_Raye ;
+    foaf:name "Martha Raye" ;
+    foaf:firstname "Martha" ;
+    foaf:lastname "Raye" ;
+    dbo:actor msbox:m004 .
+
+msbox:p024
+    a foaf:Person ;
+    owl:sameAs dbpedia:Isobel_Elsom ;
+    foaf:name "Isobel Elsom" ;
+    foaf:firstname "Isobel" ;
+    foaf:lastname "Elsom" ;
+    dbo:actor msbox:m004 .
+
+msbox:p025
+    a foaf:Person ;
+    owl:sameAs dbpedia:William_Frawley ;
+    foaf:name "William Frawley" ;
+    foaf:firstname "William" ;
+    foaf:lastname "Frawley" ;
+    dbo:actor msbox:m004 .
+
+msbox:p026
+    a foaf:Person ;
+    owl:sameAs dbpedia:Arthur_Hohl ;
+    foaf:name "Arthur Hohl" ;
+    foaf:firstname "Arthur" ;
+    foaf:lastname "Hohl" ;
+    dbo:actor msbox:m004 .
+
+msbox:p027
+    a foaf:Person ;
+    owl:sameAs dbpedia:Jack_Oakie ;
+    foaf:name "Jack Oakie" ;
+    foaf:firstname "Jack" ;
+    foaf:lastname "Oakie" ;
+    dbo:actor msbox:m005 .
+
+msbox:p028
+    a foaf:Person ;
+    owl:sameAs dbpedia:Paulette_Goddard ;
+    foaf:name "Paulette Goddard" ;
+    foaf:firstname "Paulette" ;
+    foaf:lastname "Goddard" ;
+    dbo:actor msbox:m005, msbox:m006 .
+
+msbox:p029
+    a foaf:Person ;
+    owl:sameAs dbpedia:Reginald_Gardiner ;
+    foaf:name "Reginald Gardiner" ;
+    foaf:firstname "Reginald" ;
+    foaf:lastname "Gardiner" ;
+    dbo:actor msbox:m005 .
+
+msbox:p030
+    a foaf:Person ;
+    owl:sameAs dbpedia:Billy_Gilbert ;
+    foaf:name "Billy Gilbert" ;
+    foaf:firstname "Billy" ;
+    foaf:lastname "Gilbert" ;
+    dbo:actor msbox:m005 .
+
+#não há informação de Eddie na dbpedia
+msbox:p031
+    a foaf:Person ;
+    foaf:name "Eddie Dunn" ;
+    foaf:firstname "Eddie" ;
+    foaf:lastname "Dunn" ;
+    dbo:actor msbox:m005 .
+
+msbox:p032
+    a foaf:Person ;
+    owl:sameAs dbpedia:Henry_Bergman ;
+    foaf:name "Henry Bergman" ;
+    foaf:firstname "Henry" ;
+    foaf:lastname "Bergman" ;
+    dbo:actor msbox:m006, msbox:m008, msbox:m009, msbox:m012, msbox:m013, msbox:m014, msbox:m015, msbox:m016 .
+
+msbox:p033
+    a foaf:Person ;
+    owl:sameAs dbpedia:Al_Ernest_Garcia ;
+    foaf:name "Al Ernest Garcia" ;
+    foaf:firstname "Al" ;
+    foaf:midname "Ernest" ;
+    foaf:lastname "Garcia" ;
+    dbo:actor msbox:m006, msbox:m007, msbox:m008, msbox:m012 .
+
+msbox:p034
+    a foaf:Person ;
+    owl:sameAs dbpedia:Wilfred_Lucas ;
+    foaf:name "Wilfred Lucas" ;
+    foaf:firstname "Wilfred" ;
+    foaf:lastname "Lucas" ;
+    dbo:actor msbox:m006 .
+
+msbox:p035
+    a foaf:Person ;
+    owl:sameAs dbpedia:Edward_LeSaint ;
+    foaf:name "Edward LeSaint" ;
+    foaf:firstname "Edward" ;
+    foaf:lastname "LeSaint" ;
+    dbo:actor msbox:m006 .
+
+msbox:p036
+    a foaf:Person ;
+    owl:sameAs dbpedia:Merna_Kennedy ;
+    foaf:name "Merna Kennedy" ;
+    foaf:firstname "Merna" ;
+    foaf:lastname "Kennedy" ;
+    dbo:actor msbox:m008 .
+
+msbox:p037
+    a foaf:Person ;
+    owl:sameAs dbpedia:Harry_Crocker ;
+    foaf:name "Harry Crocker" ;
+    foaf:firstname "Herry" ;
+    foaf:lastname "Crocker" ;
+    dbo:actor msbox:m008 .
+
+msbox:p038
+    a foaf:Person ;
+    owl:sameAs dbpedia:George_Davis_\(actor\) ;
+    foaf:name "George Davis" ;
+    foaf:firstname "George" ;
+    foaf:lastname "Davis" ;
+    dbo:actor msbox:m008 .
+
+msbox:p039
+    a foaf:Person ;
+    owl:sameAs dbpedia:Mack_Swain ;
+    foaf:name "Mack Swain" ;
+    foaf:firstname "Mack" ;
+    foaf:lastname "Swain" ;
+    dbo:actor msbox:m009, msbox:m012 .
+
+msbox:p040
+    a foaf:Person ;
+    owl:sameAs dbpedia:Georgia_Hale ;
+    foaf:name "Georgia Hale" ;
+    foaf:firstname "Georgia" ;
+    foaf:lastname "Hale" ;
+    dbo:actor msbox:m009 .
+
+msbox:p041
+    a foaf:Person ;
+    owl:sameAs dbpedia:Edna_Purviance ;
+    foaf:name "Edna Purviance" ;
+    foaf:firstname "Edna" ;
+    foaf:lastname "Purviance" ;
+    dbo:actor msbox:m010, msbox:m011, msbox:m012, msbox:m013,msbox:m014, msbox:m015, msbox:m016 .
+
+msbox:p042
+    a foaf:Person ;
+    owl:sameAs dbpedia:Carl_Miller_\(actor\) ;
+    foaf:name "Carl Miller" ;
+    foaf:firstname "Carl" ;
+    foaf:lastname "Miller" ;
+    dbo:actor msbox:m010, msbox:m011 .
+
+msbox:p043
+    a foaf:Person ;
+    owl:sameAs dbpedia:Adolphe_Menjou ;
+    foaf:name "Adolphe Menjou" ;
+    foaf:firstname "Adolphe" ;
+    foaf:lastname "Menjou" ;
+    dbo:actor msbox:m010 .
+
+msbox:p044
+    a foaf:Person ;
+    owl:sameAs dbpedia:Jackie_Coogan ;
+    foaf:name "Jackie Coogan" ;
+    foaf:firstname "Jackie" ;
+    foaf:lastname "Coogan" ;
+    dbo:actor msbox:m011, msbox:m014 .
+
+msbox:p045
+    a foaf:Person ;
+    owl:sameAs dbpedia:Eric_Campbell_\(actor\) ;
+    foaf:name "Eric Campbell" ;
+    foaf:firstname "Eric" ;
+    foaf:lastname "Campbell" ;
+    dbo:actor msbox:m015, msbox:m016 .
+
+msbox:p046
+    a foaf:Person ;
+    owl:sameAs dbpedia:James_T._Kelley ;
+    foaf:name "James T. Kelley" ;
+    foaf:firstname "James" ;
+    foaf:lastname "Kelley" ;
+    dbo:actor msbox:m015, msbox:m016 .
+
+msbox:p047
+    a foaf:Person ;
+    owl:sameAs dbpedia:Lloyd_Bacon ;
+    foaf:name "Lloyd Bacon" ;
+    foaf:firstname "Lloyd" ;
+    foaf:lastname "Bacon" ;
+    dbo:actor msbox:m016 .
+
+msbox:p048
+    a foaf:Person ;
+    foaf:name "Charlotte Mineau" ;
+    foaf:firstname "Charlotte" ;
+    foaf:lastname "Mineau" ;
+    dbo:actor msbox:m016 .
+
+msbox:a001
+    a msbox:Album ;
+    msbox:code "Brunswick SXA 4544" ;
+    foaf:name "Charles Chaplin - A Countess From Hong Kong" ;
+    msbox:from msbox:m001 .
+
+msbox:a002
+    a msbox:Album ;
+    msbox:code "Columbia SEG 7720" ;
+    foaf:name "Charles Chaplin Melodies - A King in New York" ;
+    msbox:from msbox:m002 .
+
+msbox:l001
+    a msbox:TrackList ;
+    msbox:track "The spring song" ;
+    msbox:track "Weeping willows" ;
+    msbox:track "Mandolin serenade" ;
+    msbox:track "Park Avenue waltz" ;
+    msbox:from msbox:a002 .
+
+msbox:a003
+    a msbox:Album ;
+    msbox:code "Decca Records DS-174" ;
+    foaf:name "Shane" ;
+    msbox:from msbox:m003 .
+
+msbox:a005
+    a msbox:Album ;
+    msbox:code "Silva Screen SILCD1198" ;
+    foaf:name "Charlie Chaplin - The Essential Film Music Collection" ;
+    msbox:from msbox:m005, msbox:m010, msbox:m013, msbox:m015,msbox:m016 .
+
+msbox:l002
+    a msbox:TrackList ;
+    msbox:track "The Reel Chaplin - A Symphonic Adventure (Part 1)" ;
+    msbox:track "The Kid" ;
+    msbox:track "Pay Day" ;
+    msbox:track "The Gold Rush" ;
+    msbox:track "The Circus" ;
+    msbox:track "City Lights" ;
+    msbox:track "Modern Times" ;
+    msbox:track "The Great Dictator" ;
+    msbox:track "Monsieur Verdoux - Paris Boulevard" ;
+    msbox:track "Monsieur Verdoux - Bitter Tango" ;
+    msbox:track "A King in New York - Mandolin Serenade" ;
+    msbox:track "A King in New York - Weeping Willow" ;
+    msbox:track "A Countess from Hong Kong" ;
+    msbox:track "The Reel Chaplin - A Symphonic Adventure (Part 2)" ;
+    msbox:track "The Floorwalker" ;
+    msbox:track "The Fireman" ;
+    msbox:track "The Vagabond" ;
+    msbox:track "One A.M." ;
+    msbox:track "The Count" ;
+    msbox:track "The Pawnshop" ;
+    msbox:track "Behind the Screen" ;
+    msbox:track "The Rink" ;
+    msbox:track "Easy Street" ;
+    msbox:track "The Cure" ;
+    msbox:track "The Immigrant" ;
+    msbox:track "The Adventurer" ;
+    msbox:from msbox:a005 .
+
+msbox:a006
+    a msbox:Album ;
+    msbox:code "Gamma GX 07 095" ;
+    msbox:from msbox:m006 .
+
+msbox:a007
+    a msbox:Album ;
+    msbox:code "Carl Davis Collection CDC015" ;
+    foaf:name "Charlie Chaplin - City Lights" ;
+    msbox:from msbox:m007 .
+
+msbox:l003
+    a msbox:TrackList ;
+    msbox:track "Overture/Unveiling the Statue" ;
+    msbox:track "The Flower Girl (La Violetera)" ;
+    msbox:track "Evening/Meeting the Millionaire" ;
+    msbox:track "At the Millionaire's Home" ;
+    msbox:track "The Nightclub - Dance Suite" ;
+    msbox:track "The Limousine" ;
+    msbox:track "The Sober Dawn" ;
+    msbox:track "The Party and the Morning After" ;
+    msbox:track "Eviction/The Road Sweeper/At the Girl's Home" ;
+    msbox:track "The Boxing Match" ;
+    msbox:track "The Burglars" ;
+    msbox:track "Reunited" ;
+    msbox:from msbox:a007 .
+
+msbox:a008
+    a msbox:Album ;
+    foaf:name "The Music of Charlie Chaplin The Circus" ;
+    msbox:from msbox:m008 .
+
+msbox:a009
+    a msbox:Album ;
+    msbox:code "RCA Records 09026 68271 2" ;
+    foaf:name "Charlie Chaplin - The Gold Rush" ;
+    msbox:from msbox:m009 .
+
+msbox:a010
+    a msbox:Album ;
+    msbox:code "RCA Records 09026 68271 2" ;
+    foaf:name "Charlie Chaplin - The Gold Rush" ;
+    msbox:from msbox:m010 .
+
+msbox:a011
+    a msbox:Album ;
+    foaf:name "La Música de Charlie Chaplin El Chico" ;
+    msbox:from msbox:m011 .
+
+msbox:a012
+    a msbox:Album ;
+    msbox:code "Blue Moon BM 99903/4" ;
+    foaf:name "Charlie Chaplin - The Original Music From His Movies" ;
+    msbox:from msbox:m014 .
+
+#http://www.adorocinema.com/personalidades/personalidade-5711/filmografia/
+#http://www.ldf.fi/service/rdf-grapher
+#http://musicontology.com/docs/getting-started.html
+#http://www.soundtrackcollector.com
