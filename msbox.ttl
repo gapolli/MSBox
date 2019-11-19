@@ -1,0 +1,438 @@
+@prefix dc:         <http://purl.org/dc/elements/1.1/> .
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:        <http://www.w3.org/2002/07/owl#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix dbpedia:    <http://dbpedia.org/resource/> .
+@prefix dbo:        <http://dbpedia.org/ontology/> .
+@prefix mo:         <http://purl.org/ontology/mo/> .
+@prefix msbox:      <http://www.msbox.com/#> .
+
+msbox:m001
+    a dbo:Movie ;
+    owl:sameAs dbpedia:A_Countess_from_Hong_Kong ;
+    dbo:musicComposer msbox:p001 ;
+    dbo:director msbox:p001 ;
+    dbo:actor msbox:p001, msbox:p002, msbox:p003, msbox:p004, msbox:p005, msbox:p006, msbox:p007, msbox:p008, msbox:p009 ;
+    mo:album msbox:a001 .
+
+msbox:m002
+    a dbo:Movie ;
+    owl:sameAs dbpedia:A_King_in_New_York ;
+    dbo:musicComposer msbox:p001 ;
+    dbo:director msbox:p001 ;
+    dbo:actor msbox:p001, msbox:p010, msbox:p011, msbox:p012, msbox:p013, msbox:p014, msbox:p015, msbox:p016 ;
+    mo:album msbox:a002 .
+
+msbox:m003
+    a dbo:Movie ;
+    owl:sameAs dbpedia:Limelight_\(1952_film\) ;
+    dbo:musicComposer msbox:p001 ;
+    dbo:director msbox:p001 ;
+    dbo:actor msbox:p001, msbox:p004, msbox:p008, msbox:p013, msbox:p017, msbox:p018, msbox:p019, msbox:p020 ;
+    mo:album msbox:a003 .
+
+msbox:m004
+    a dbo:Movie ;
+    owl:sameAs dbpedia:Monsieur_Verdoux ;
+    dbo:musicComposer msbox:p001 ;
+    dbo:director msbox:p001 ;
+    dbo:actor msbox:p001, msbox:p021, msbox:p022, msbox:p023, msbox:p024, msbox:p025, msbox:p026 .
+
+msbox:m005
+    a dbo:Movie ;
+    owl:sameAs dbpedia:The_Great_Dictator ;
+    dbo:musicComposer msbox:p001 ;
+    dbo:director msbox:p001 ;
+    dbo:actor msbox:p001, msbox:p027, msbox:p028, msbox:p029, msbox:p030, msbox:p031 ;
+    mo:album msbox:a005 .
+
+msbox:m006
+    a dbo:Movie ;
+    owl:sameAs dbpedia:Modern_Times_\(film\) ;
+    dbo:musicComposer msbox:p001 ;
+    dbo:director msbox:p001 ;
+    dbo:actor msbox:p001, msbox:p028, msbox:p032, msbox:p033, msbox:p034, msbox:p035 ;
+    mo:album msbox:a006 .
+
+msbox:m007
+    a dbo:Movie ;
+    owl:sameAs dbpedia:City_Lights ;
+    dbo:musicComposer msbox:p001 ;
+    dbo:director msbox:p001 ;
+    dbo:actor msbox:p001, msbox:p033 ;
+    mo:album msbox:a007 .
+
+msbox:m008
+    a dbo:Movie ;
+    owl:sameAs dbpedia:The_Circus_\(film\) ;
+    dbo:musicComposer msbox:p001 ;
+    dbo:director msbox:p001 ;
+    dbo:actor msbox:p001, msbox:p032, msbox:p033, msbox:p036, msbox:p037, msbox:p038 ;
+    mo:album msbox:a008 .
+
+msbox:m009
+    a dbo:Movie ;
+    owl:sameAs dbpedia:The_Gold_Rush ;
+    dbo:musicComposer msbox:p001 ;
+    dbo:director msbox:p001 ;
+    dbo:actor msbox:p001, msbox:p032, msbox:p039, msbox:p040 ;
+    mo:album msbox:a009 .
+
+msbox:m010
+    a dbo:Movie ;
+    owl:sameAs dbpedia:A_Woman_of_Paris ;
+    dbo:musicComposer msbox:p001 ;
+    dbo:director msbox:p001 ;
+    dbo:actor msbox:p001, msbox:p041, msbox:p042, msbox:p043 ;
+    mo:album msbox:a005, msbox:a010 .
+
+msbox:m011
+    a dbo:Movie ;
+    owl:sameAs dbpedia:The_Kid_\(1921_film\) ;
+    dbo:musicComposer msbox:p001 ;
+    dbo:director msbox:p001 ;
+    dbo:actor msbox:p001, msbox:p041, msbox:p042, msbox:p044 ;
+    mo:album msbox:a011 .
+
+msbox:m012
+    a dbo:Movie ;
+    owl:sameAs dbpedia:The_Idle_Class ;
+    dbo:musicComposer msbox:p001 ;
+    dbo:director msbox:p001 ;
+    dbo:actor msbox:p001, msbox:p032, msbox:p033, msbox:p039, msbox:p041 .
+
+msbox:m013
+    a dbo:Movie ;
+    owl:sameAs dbpedia:Sunnyside_\(film\) ;
+    dbo:musicComposer msbox:p001 ;
+    dbo:director msbox:p001 ;
+    dbo:actor msbox:p001, msbox:p032, msbox:p041 ;
+    mo:album msbox:a005 .
+
+msbox:m014
+    a dbo:Movie ;
+    owl:sameAs dbpedia:A_Day\'s_Pleasure ;
+    dbo:musicComposer msbox:p001 ;
+    dbo:director msbox:p001 ;
+    dbo:actor msbox:p001, msbox:p032, msbox:p041, msbox:p044 ;
+    mo:album msbox:a012 .
+
+msbox:m015
+    a dbo:Movie ;
+    owl:sameAs dbpedia:The_Immigrant_\(1917_film\) ;
+    dbo:musicComposer msbox:p001 ;
+    dbo:director msbox:p001 ;
+    dbo:actor msbox:p001, msbox:p032, msbox:p041, msbox:p045, msbox:p046 ;
+    mo:album msbox:a005 .
+
+msbox:m016
+    a dbo:Movie ;
+    owl:sameAs dbpedia:The_Rink_\(film\) ;
+    dbo:musicComposer msbox:p001 ;
+    dbo:director msbox:p001 ;
+    dbo:actor msbox:p001, msbox:p032, msbox:p041, msbox:p045, msbox:p046, msbox:p047, msbox:p048 ;
+    mo:album msbox:a005 .
+
+msbox:p001
+    a foaf:Person ;
+    owl:sameAs dbpedia:Charlie_Chaplin .
+
+msbox:p002
+    a foaf:Person ;
+    owl:sameAs dbpedia:Marlon_Brando .
+
+msbox:p003
+    a foaf:Person ;
+    owl:sameAs dbpedia:Sophia_Loren .
+
+msbox:p004
+    a foaf:Person ;
+    owl:sameAs dbpedia:Sydney_Chaplin .
+
+msbox:p005
+    a foaf:Person ;
+    owl:sameAs dbpedia:Tippi_Hedren .
+
+msbox:p006
+    a foaf:Person ;
+    owl:sameAs dbpedia:Michael_Medwin .
+
+#there's no information about Margareth in dbpedia
+msbox:p007
+    a foaf:Person ;
+    foaf:name "Margareth Rutherford" ;
+    foaf:firstname "Margareth" ;
+    foaf:lastname "Rutherford" .
+
+msbox:p008
+    a foaf:Person ;
+    owl:sameAs dbpedia:Geraldine_Chaplin .
+
+msbox:p009
+    a foaf:Person ;
+    owl:sameAs dbpedia:Antony_Chinn .
+
+msbox:p010
+    a foaf:Person ;
+    owl:sameAs dbpedia:Maxine_Audley .
+
+msbox:p011
+    a foaf:Person ;
+    owl:sameAs dbpedia:Dawn_Addams .
+
+msbox:p012
+    a foaf:Person ;
+    owl:sameAs dbpedia:Sid_James .
+
+msbox:p013
+    a foaf:Person ;
+    owl:sameAs dbpedia:Michael_Chaplin_\(actor\) .
+
+msbox:p014
+    a foaf:Person ;
+    owl:sameAs dbpedia:Phil_Brown_\(actor\) .
+
+#there's no information about Harry in dbpedia
+msbox:p015
+    a foaf:Person ;
+    foaf:name "Harry Green" ;
+    foaf:firstname "Harry" ;
+    foaf:lastname "Green" .
+
+msbox:p016
+    a foaf:Person ;
+    owl:sameAs dbpedia:Robert_Arden .
+
+msbox:p017
+    a foaf:Person ;
+    owl:sameAs dbpedia:Claire_Bloom .
+
+msbox:p018
+    a foaf:Person ;
+    owl:sameAs dbpedia:Buster_Keaton .
+
+msbox:p019
+    a foaf:Person ;
+    owl:sameAs dbpedia:Nigel_Bruce .
+
+msbox:p020
+    a foaf:Person ;
+    owl:sameAs dbpedia:Norman_Lloyd .
+
+#there's no information about Mady in dbpedia
+msbox:p021
+    a foaf:Person ;
+    foaf:name "Mady Correll" ;
+    foaf:firstname "Mady" ;
+    foaf:lastname "Correll" .
+
+msbox:p022
+    a foaf:Person ;
+    owl:sameAs dbpedia:Robert_Lewis_\(director\) .
+
+msbox:p023
+    a foaf:Person ;
+    owl:sameAs dbpedia:Martha_Raye .
+
+msbox:p024
+    a foaf:Person ;
+    owl:sameAs dbpedia:Isobel_Elsom .
+
+msbox:p025
+    a foaf:Person ;
+    owl:sameAs dbpedia:William_Frawley .
+
+msbox:p026
+    a foaf:Person ;
+    owl:sameAs dbpedia:Arthur_Hohl .
+
+msbox:p027
+    a foaf:Person ;
+    owl:sameAs dbpedia:Jack_Oakie .
+
+msbox:p028
+    a foaf:Person ;
+    owl:sameAs dbpedia:Paulette_Goddard .
+
+msbox:p029
+    a foaf:Person ;
+    owl:sameAs dbpedia:Reginald_Gardiner .
+
+msbox:p030
+    a foaf:Person ;
+    owl:sameAs dbpedia:Billy_Gilbert .
+
+#there's no information about Eddie in dbpedia
+msbox:p031
+    a foaf:Person ;
+    foaf:name "Eddie Dunn" ;
+    foaf:firstname "Eddie" ;
+    foaf:lastname "Dunn" .
+
+msbox:p032
+    a foaf:Person ;
+    owl:sameAs dbpedia:Henry_Bergman .
+
+msbox:p033
+    a foaf:Person ;
+    owl:sameAs dbpedia:Al_Ernest_Garcia .
+
+msbox:p034
+    a foaf:Person ;
+    owl:sameAs dbpedia:Wilfred_Lucas .
+
+msbox:p035
+    a foaf:Person ;
+    owl:sameAs dbpedia:Edward_LeSaint .
+
+msbox:p036
+    a foaf:Person ;
+    owl:sameAs dbpedia:Merna_Kennedy .
+
+msbox:p037
+    a foaf:Person ;
+    owl:sameAs dbpedia:Harry_Crocker .
+
+msbox:p038
+    a foaf:Person ;
+    owl:sameAs dbpedia:George_Davis_\(actor\) .
+
+msbox:p039
+    a foaf:Person ;
+    owl:sameAs dbpedia:Mack_Swain .
+
+msbox:p040
+    a foaf:Person ;
+    owl:sameAs dbpedia:Georgia_Hale .
+
+msbox:p041
+    a foaf:Person ;
+    owl:sameAs dbpedia:Edna_Purviance .
+
+msbox:p042
+    a foaf:Person ;
+    owl:sameAs dbpedia:Carl_Miller_\(actor\) .
+
+msbox:p043
+    a foaf:Person ;
+    owl:sameAs dbpedia:Adolphe_Menjou .
+
+msbox:p044
+    a foaf:Person ;
+    owl:sameAs dbpedia:Jackie_Coogan .
+
+msbox:p045
+    a foaf:Person ;
+    owl:sameAs dbpedia:Eric_Campbell_\(actor\) .
+
+msbox:p046
+    a foaf:Person ;
+    owl:sameAs dbpedia:James_T._Kelley .
+
+msbox:p047
+    a foaf:Person ;
+    owl:sameAs dbpedia:Lloyd_Bacon .
+
+msbox:p048
+    a foaf:Person ;
+    owl:sameAs dbpedia:Charlotte_Mineau .
+
+msbox:a001
+    a mo:album ;
+    msbox:code "Brunswick SXA 4544" ;
+    foaf:name "Charles Chaplin - A Countess From Hong Kong" .
+
+msbox:a002
+    a mo:album ;
+    msbox:code "Columbia SEG 7720" ;
+    foaf:name "Charles Chaplin Melodies - A King in New York" ;
+    mo:track "The Spring Song" ;
+    mo:track "Weeping Willows" ;
+    mo:track "Mandolin Serenade" ;
+    mo:track "Park Avenue waltz" .
+
+msbox:a003
+    a mo:album ;
+    msbox:code "Decca Records DS-174" ;
+    foaf:name "Shane" .
+
+msbox:a005
+    a mo:album ;
+    msbox:code "Silva Screen SILCD1198" ;
+    foaf:name "Charlie Chaplin - The Essential Film Music Collection" ;
+    mo:track "The Reel Chaplin - A Symphonic Adventure (Part 1)" ;
+    mo:track "The Kid" ;
+    mo:track "Pay Day" ;
+    mo:track "The Gold Rush" ;
+    mo:track "The Circus" ;
+    mo:track "City Lights" ;
+    mo:track "Modern Times" ;
+    mo:track "The Great Dictator" ;
+    mo:track "Monsieur Verdoux - Paris Boulevard" ;
+    mo:track "Monsieur Verdoux - Bitter Tango" ;
+    mo:track "A King in New York - Mandolin Serenade" ;
+    mo:track "A King in New York - Weeping Willow" ;
+    mo:track "A Countess from Hong Kong" ;
+    mo:track "The Reel Chaplin - A Symphonic Adventure (Part 2)" ;
+    mo:track "The Floorwalker" ;
+    mo:track "The Fireman" ;
+    mo:track "The Vagabond" ;
+    mo:track "One A.M." ;
+    mo:track "The Count" ;
+    mo:track "The Pawnshop" ;
+    mo:track "Behind the Screen" ;
+    mo:track "The Rink" ;
+    mo:track "Easy Street" ;
+    mo:track "The Cure" ;
+    mo:track "The Immigrant" ;
+    mo:track "The Adventurer" .
+
+msbox:a006
+    a mo:album ;
+    msbox:code "Gamma GX 07 095" .
+
+msbox:a007
+    a mo:album ;
+    msbox:code "Carl Davis Collection CDC015" ;
+    foaf:name "Charlie Chaplin - City Lights" ;
+    mo:track "Overture/Unveiling the Statue" ;
+    mo:track "The Flower Girl (La Violetera)" ;
+    mo:track "Evening/Meeting the Millionaire" ;
+    mo:track "At the Millionaire's Home" ;
+    mo:track "The Nightclub - Dance Suite" ;
+    mo:track "The Limousine" ;
+    mo:track "The Sober Dawn" ;
+    mo:track "The Party and the Morning After" ;
+    mo:track "Eviction/The Road Sweeper/At the Girl's Home" ;
+    mo:track "The Boxing Match" ;
+    mo:track "The Burglars" ;
+    mo:track "Reunited" .
+
+msbox:a008
+    a mo:album ;
+    foaf:name "The Music of Charlie Chaplin The Circus" .
+
+msbox:a009
+    a mo:album ;
+    msbox:code "RCA Records 09026 68271 2" ;
+    foaf:name "Charlie Chaplin - The Gold Rush" .
+
+msbox:a010
+    a mo:album ;
+    msbox:code "RCA Records 09026 68271 2" ;
+    foaf:name "Charlie Chaplin - The Gold Rush" .
+
+msbox:a011
+    a mo:album ;
+    foaf:name "La Música de Charlie Chaplin El Chico" .
+
+msbox:a012
+    a mo:album ;
+    msbox:code "Blue Moon BM 99903/4" ;
+    foaf:name "Charlie Chaplin - The Original Music From His Movies" .
+
+#http://www.adorocinema.com/personalidades/personalidade-5711/filmografia/
+#http://www.ldf.fi/service/rdf-grapher
+#http://musicontology.com/docs/getting-started.html
+#http://www.soundtrackcollector.com

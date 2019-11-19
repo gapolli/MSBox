@@ -1,7 +1,7 @@
 from rdflib import Graph
 
 g = Graph()
-filename = 'msboxprototype.ttl'
+filename = 'msbox.ttl'
 g.parse(filename, format='turtle')
 
 print(filename, 'tem', len(g), 'triplas')
