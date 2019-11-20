@@ -42,7 +42,7 @@ msbox:m004
 msbox:m005
     a dbo:Movie ;
     owl:sameAs dbpedia:The_Great_Dictator ;
-    dbo:musicComposer msbox:p001 ;
+    dbo:musicComposer msbox:p001, msbox:p049 ;
     dbo:director msbox:p001 ;
     dbo:actor msbox:p001, msbox:p027, msbox:p028, msbox:p029, msbox:p030, msbox:p031 ;
     mo:album msbox:a005 .
@@ -50,7 +50,7 @@ msbox:m005
 msbox:m006
     a dbo:Movie ;
     owl:sameAs dbpedia:Modern_Times_\(film\) ;
-    dbo:musicComposer msbox:p001 ;
+    dbo:musicComposer msbox:p001, msbox:p050 ;
     dbo:director msbox:p001 ;
     dbo:actor msbox:p001, msbox:p028, msbox:p032, msbox:p033, msbox:p034, msbox:p035 ;
     mo:album msbox:a006 .
@@ -58,7 +58,7 @@ msbox:m006
 msbox:m007
     a dbo:Movie ;
     owl:sameAs dbpedia:City_Lights ;
-    dbo:musicComposer msbox:p001 ;
+    dbo:musicComposer msbox:p001, msbox:p051 ;
     dbo:director msbox:p001 ;
     dbo:actor msbox:p001, msbox:p033 ;
     mo:album msbox:a007 .
@@ -74,7 +74,7 @@ msbox:m008
 msbox:m009
     a dbo:Movie ;
     owl:sameAs dbpedia:The_Gold_Rush ;
-    dbo:musicComposer msbox:p001 ;
+    dbo:musicComposer msbox:p001, msbox:p051, msbox:p052 ;
     dbo:director msbox:p001 ;
     dbo:actor msbox:p001, msbox:p032, msbox:p039, msbox:p040 ;
     mo:album msbox:a009 .
@@ -82,7 +82,7 @@ msbox:m009
 msbox:m010
     a dbo:Movie ;
     owl:sameAs dbpedia:A_Woman_of_Paris ;
-    dbo:musicComposer msbox:p001 ;
+    dbo:musicComposer msbox:p001, msbox:p053 ;
     dbo:director msbox:p001 ;
     dbo:actor msbox:p001, msbox:p041, msbox:p042, msbox:p043 ;
     mo:album msbox:a005, msbox:a010 .
@@ -98,7 +98,7 @@ msbox:m011
 msbox:m012
     a dbo:Movie ;
     owl:sameAs dbpedia:The_Idle_Class ;
-    dbo:musicComposer msbox:p001 ;
+    dbo:musicComposer msbox:p001, msbox:p054 ;
     dbo:director msbox:p001 ;
     dbo:actor msbox:p001, msbox:p032, msbox:p033, msbox:p039, msbox:p041 .
 
@@ -121,7 +121,7 @@ msbox:m014
 msbox:m015
     a dbo:Movie ;
     owl:sameAs dbpedia:The_Immigrant_\(1917_film\) ;
-    dbo:musicComposer msbox:p001 ;
+    dbo:musicComposer msbox:p051, msbox:p055 ;
     dbo:director msbox:p001 ;
     dbo:actor msbox:p001, msbox:p032, msbox:p041, msbox:p045, msbox:p046 ;
     mo:album msbox:a005 .
@@ -129,7 +129,7 @@ msbox:m015
 msbox:m016
     a dbo:Movie ;
     owl:sameAs dbpedia:The_Rink_\(film\) ;
-    dbo:musicComposer msbox:p001 ;
+    dbo:musicComposer msbox:p051, msbox:p055 ;
     dbo:director msbox:p001 ;
     dbo:actor msbox:p001, msbox:p032, msbox:p041, msbox:p045, msbox:p046, msbox:p047, msbox:p048 ;
     mo:album msbox:a005 .
@@ -337,6 +337,37 @@ msbox:p047
 msbox:p048
     a foaf:Person ;
     owl:sameAs dbpedia:Charlotte_Mineau .
+
+msbox:p049
+    a foaf:Person ;
+    owl:sameAs dbpedia:Meredith_Willson .
+
+msbox:p050
+    a foaf:Person ;
+    owl:sameAs dbpedia:Alfred_Newman_\(composer\) .
+
+msbox:p051
+    a foaf:Person ;
+    owl:sameAs dbpedia:Carl_Davis .
+
+msbox:p052
+    a foaf:Person ;
+    owl:sameAs dbpedia:William_P._Perry .
+
+msbox:p053
+    a foaf:Person ;
+    owl:sameAs dbpedia:Louis_F._Gottschalk .
+
+msbox:p054
+    a foaf:Person ;
+    owl:sameAs dbpedia:Eric_Rogers_\(composer\) .
+
+#there's no information about Michael in dbpedia
+msbox:p055
+    a foaf:Person ;
+    foaf:name "Michael Mortilla" ;
+    foaf:firstname "Michael" ;
+    foaf:lastname "Mortilla" .
 
 msbox:a001
     a mo:album ;
