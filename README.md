@@ -33,6 +33,12 @@ Note: “---” is an index starting at 001 and incrementing with each new data 
 ![](datamodel.png)
 The final RDF has 343 triples.
 
+## SPARQL Query Examples
+- TODO: todo.
+- TODO: todo.
+- TODO: todo.
+- TODO: todo.
+
 ## Data Sources
 - Charlie Chaplin Filmography - http://www.adorocinema.com
 - Soundtracks data - http://www.soundtrackcollector.com
