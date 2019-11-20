@@ -24,9 +24,14 @@ For the RDF Turtle document, the following RDF dictionaries were used:
 
 ## Terms created
 Note: “---” is an index starting at 001 and incrementing with each new data obtained.
-- msbox: m---: ontology designed to describe data about movies.
-- msbox: p---: an ontology designed to describe data about people, whether related to movies or soundtracks.
-- msbox: a---: ontology designed to describe album data.
+- msbox:m---: ontology designed to describe data about movies.
+- msbox:p---: an ontology designed to describe data about people, whether related to movies or soundtracks.
+- msbox:a---: ontology designed to describe album data.
+- msbox:code: Literal data used to describe the album code.
+
+## Data Model
+![](datamodel.png)
+The final RDF has 343 triples.
 
 ## Data Sources
 - Charlie Chaplin Filmography - http://www.adorocinema.com
