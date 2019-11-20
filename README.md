@@ -6,8 +6,8 @@ Getting data from HTML sources is often a laborious task that requires a lot of 
 While obtaining data for the design of this project, I came across exactly these problems. The solution was to get them manually (we often call this “fingernailing”) one by one in small numbers rather than scraping or crawling through code.
 
 ## Goals
-- Soundtrack Research: The main, and most important, objective of this project is to research Soundtracks from the movie data.
-- Track Research: Obtaining track names is a direct - not least - consequence of searching Soundtracks from movie data.
+- Track Search: The main, and most important, objective of this project is to search tracks from movie data.
+- Album Search: Obtaining album names is a direct - not least - consequence of searching for tracks from movie data.
 - Other possible researches: composer research from movie data, movie research, actor research and director research.
 
 ## Specifications
