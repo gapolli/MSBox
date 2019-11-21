@@ -42,8 +42,8 @@ The "final RDF" has 368 triples.
 
 ## Data Sources
 - **Charlie Chaplin Filmography -** http://www.adorocinema.com
-- **Soundtracks data -** http://www.soundtrackcollector.com
-- **Open data connected -** http://dbpedia.org (DBPedia)
+- **Soundtracks Data -** http://www.soundtrackcollector.com
+- **Linked Open Data -** http://dbpedia.org (DBPedia)
 
 ## Thanks
 - ![Ivan Luis Marques Ricarte](https://github.com/IvanRicarte) for the knowledge passed on.
